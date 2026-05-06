@@ -1,4 +1,4 @@
-# GenAI-Project
+
 # GenAI Project
 
 ## Repository Contents

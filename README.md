@@ -1,17 +1,19 @@
-
 # GenAI Project
 
 ## Repository Contents
 
-- Dataset: Excel file or Google Sheet
+- Dataset: Excel file for the project
 - Report: PDF explaining learning outcomes
-- Code: Python files for the AI system
+- Code: Python file for the AI system
 
 ## Dataset
-[Paste Google Sheet link here OR mention Excel file location]
+Located in:
+dataset.xlsx
 
 ## Report
-Located in /report/GenAI_Report.pdf
+Located in:
+GenAI_Report.pdf
 
 ## Code
-Located in /code/
+Located in:
+main.py

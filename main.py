@@ -1,17 +1,24 @@
-import sys
-
 def generate_text(prompt):
-    return f"AI response: {prompt}"
+    response = (
+        "Generative AI can support RPTM and Hospitality students by helping with "
+        "event planning, tourism marketing, customer service communication, budgeting, "
+        "and scheduling. For example, AI can help create event promotion messages, "
+        "suggest travel or recreation activities, organize planning tasks, and generate "
+        "professional responses for guests or customers. However, students still need "
+        "to review the AI output because it may include mistakes or information that "
+        "does not fully match the real situation."
+    )
+    return response
+
 
 def main():
-    # If no input system is available, use a default value
-    if sys.stdin.isatty():
-        user_input = input("Enter a prompt: ")
-    else:
-        user_input = "default prompt"
+    prompt = "How can Generative AI support RPTM and Hospitality?"
 
-    result = generate_text(user_input)
-    print(result)
+    print("Prompt:")
+    print(prompt)
+    print("\nAI Response:")
+    print(generate_text(prompt))
+
 
 if __name__ == "__main__":
     main()
